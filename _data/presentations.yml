@@ -1,5 +1,7 @@
-- title: 'Influence Functions for Adaptive Stimulus Selection'
-  other-authors: ['Jayanth Koushik', 'Austin Marcus', 'Aarti Singh', 'Michael J. Tarr']
-  status: ['18<sup>th</sup> Annual Meeting of the Vision Sciences Society (VSS 2018)']
-  links:
-    - poster: 'pdfs/vss_poster.pdf'
+# Same format as described in _data/publications.yml
+- title: 'Presentation Title'
+  equal-authors: ['Author 1', 'Author 2']
+  other-authors: ['Author 3', 'Author 4']
+  status: 'Presented at Conference'
+  # links:
+  #  - LINKNAME: 'LINK'
