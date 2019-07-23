@@ -1,0 +1,38 @@
+sudo: required
+dist: trusty
+
+language: ruby
+rvm:
+  - "2.4"
+
+before_install:
+  - gem install bundler
+  - wget https://github.com/jgm/pandoc/releases/download/2.1.2/pandoc-2.1.2-1-amd64.deb
+  - sudo dpkg -i pandoc-2.1.2-1-amd64.deb
+  - rm pandoc-2.1.2-1-amd64.deb
+  - wget https://github.com/lierdakil/pandoc-crossref/releases/download/v0.3.0.2/linux-ghc82-pandoc21.tar.gz
+  - tar xvzf linux-ghc82-pandoc21.tar.gz
+  - rm linux-ghc82-pandoc21.tar.gz pandoc-crossref.1
+  - mkdir -p $HOME/.local/bin
+  - mv pandoc-crossref $HOME/.local/bin/
+  - export PATH=$PATH:$HOME/.local/bin
+
+install:
+  - bundle install
+
+script:
+  - bundle exec jekyll build
+
+branches:
+  only:
+    - source
+
+deploy:
+  provider: pages
+  local-dir: _site
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  keep-history: true
+  on:
+    branch: source
+  target-branch: master

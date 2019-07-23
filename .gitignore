@@ -1,0 +1,7 @@
+.vendor
+.bundle
+.sass-cache
+.vscode
+.jekyll-metadata
+*.DS_Store
+_site

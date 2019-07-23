@@ -1,0 +1,4 @@
+plugins:
+  - uglifier
+markdown: PandocProcessor
+exclude: [Gemfile, Gemfile.lock]
