@@ -6,8 +6,8 @@ permalink: index
 
 [<a href="mailto:ariawang@cmu.edu">email</a>]
 [<a href="https://www.github.com/ariaaay">github</a>]
-[GOOGLE SCHOLAR]
-[TWITTER]
+[<a href="https://scholar.google.com/citations?user=MepHbYgAAAAJ&hl=en">google scholar</a>]
+[<a href="https://twitter.com/ariairaw">twitter</a>]
 
 I am a PhD student at Carnegie Mellon University studying computational
 neuroscience and machine learning. I am advised by
@@ -20,5 +20,5 @@ neuroscience and machine learning. I am advised by
 # Conference Presentations {-}
 {% include pub_list.html list=site.data.presentations %}
 
-# Projects {-}
-{% include detail_list.html list=site.data.projects %}
+<!-- # Projects {-}
+{% include detail_list.html list=site.data.projects %} -->
