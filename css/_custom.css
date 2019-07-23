@@ -22,12 +22,12 @@
   }
 }
 
-/*@media (min-width: 576px) {
+@media (min-width: 576px) {
   p {
     text-align: justify;
     text-justify: inter-word;
   }
-}*/
+}
 
 body {
   padding-bottom: 2rem;
