@@ -3,18 +3,18 @@
 - title: 'Learning Intermediate Features of Object Affordances with a Convolutional Neural Network'
   # equal-authors: [] 
   other-authors: ['<u>Aria Y. Wang</u>', 'Michael J. Tarr']
-  status: Conference on Cognitive Computational Neuroscience (CCN 2018)
+  status: Conference on Cognitive Computational Neuroscience (CCN) 2018
   links:
     - pdf: https://ccneuro.org/2018/proceedings/1134.pdf
 
-- title: 'Predicting Brain Responses for Low-Shot Learning'
-  # equal-authors: [] 
-  other-authors: ['Nadine Chang', '<u>Aria Y. Wang</u>', 'Michael J. Tarr', Martial Hebert]
-  status: 'In Review.'
+# - title: 'Predicting Brain Responses for Low-Shot Learning'
+#   # equal-authors: [] 
+#   other-authors: ['Nadine Chang', '<u>Aria Y. Wang</u>', 'Michael J. Tarr', Martial Hebert]
+#   status: 'In Review.'
 
 - title: 'Neural Taskonomy: Inferring the Similarity of Task-Derived Representations from Brain Activity'
   # equal-authors: ['<strong>Aria Y. Wang</strong>'] 
   other-authors: ['<u>Aria Y. Wang</u>', 'Leila Wehbe', 'Michael J. Tarr']
-  status: 'In Review.'
+  status: Neural Information Processing Systems (NeurIPS) 2019
   links:
    - bioRXiv: 'http://biorxiv.org/cgi/content/short/708016v1'
