@@ -14,7 +14,7 @@
 
 - title: 'Neural Taskonomy: Inferring the Similarity of Task-Derived Representations from Brain Activity'
   # equal-authors: ['<strong>Aria Y. Wang</strong>'] 
-  other-authors: ['<u>Aria Y. Wang</u>', 'Leila Wehbe', 'Michael J. Tarr']
+  other-authors: ['<u>Aria Y. Wang</u>', 'Michael J. Tarr', 'Leila Wehbe']
   status: Neural Information Processing Systems (NeurIPS) 2019
   links:
    - bioRXiv: 'http://biorxiv.org/cgi/content/short/708016v1'
