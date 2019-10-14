@@ -1,5 +1,5 @@
 ---
-title: Aria (Yuan) Wang
+title: Aria Wang • 王 元
 layout: default
 permalink: index
 ---
