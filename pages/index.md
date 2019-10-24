@@ -22,7 +22,7 @@ Other than research, I enjoy rock climbing, cooking, pottery and reading.
 # Publications and Preprints {-}
 {% include pub_list.html list=site.data.publications %}
 
-# Conference Presentations {-}
+# Conference and Workshop Presentations {-}
 {% include pub_list.html list=site.data.presentations %}
 
 <!-- # Projects {-}
