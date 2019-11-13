@@ -17,5 +17,6 @@
   other-authors: ['<u>Aria Y. Wang</u>', 'Michael J. Tarr', 'Leila Wehbe']
   status: Neural Information Processing Systems (NeurIPS) 2019
   links:
-   - bioRXiv: 'http://biorxiv.org/cgi/content/short/708016v1'
+   - paper: 'http://www.cs.cmu.edu/~neural-taskonomy/src/paper.pdf'
    - poster: 'pdf/TaskonomyPoster.pdf'
+   - website: 'http://www.cs.cmu.edu/~neural-taskonomy/'
