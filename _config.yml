@@ -1,4 +1,4 @@
 plugins:
   - uglifier
-markdown: GFM
+markdown: kramdown
 exclude: [Gemfile, Gemfile.lock]
